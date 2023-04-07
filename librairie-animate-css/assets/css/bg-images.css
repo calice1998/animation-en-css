@@ -1,0 +1,43 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 10 version
+*/
+
+[class*="bg-img"]{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 70%;
+    height: 500px;
+}
+.bg-img1 {
+    background-image: url(/assets/images/slider/slide-1.jpg);
+
+}
+
+.bg-img2 {
+    background-image: url(/assets/images/slider/slide-2.svg);
+   
+}
+
+.bg-img3 {
+    background-image: url(/assets/images/slider/slide-3.svg);
+    
+}
+.bg-img4 {
+    background-image: url(/assets/images/slider/slide-4.svg);
+    
+}
+.bg-img5 {
+    background-image: url(/assets/images/slider/slide-5.svg);
+    
+}
+.bg-img6 {
+    background-image: url(/assets/images/slider/slide-6.svg);
+   
+}
+.bg-img7 {
+    background-image: url(/assets/images/slider/slide-7.svg);
+    
+}

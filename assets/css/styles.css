@@ -1,0 +1,114 @@
+/********************* NAV ********************************************/
+
+nav {
+    background-color: var(--main-color-black);
+    color: var(--main-color-white);
+    width: var(--height-unit);
+    height: 100vh;
+    cursor: pointer;
+    transition: width 2s ease;
+}
+
+nav:hover {
+    width: 300px;
+}
+
+nav:hover ul li a .text{
+    display: block;
+}
+
+nav ul li a {
+    height: var(--height-unit);
+    gap: 10px;
+    box-shadow: 0 3px 5PX -1px  rgb(0 0 0 / 20%);
+    0 5px 8px 0 rgb(0 0 0 /14%);
+    0 1px 14px 0 rgb(0 0 0 / 12%);
+    transition: all 2s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: var(--main-color);
+}
+
+nav ul li a .text{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+   /* display: none;*/
+}
+
+/*nav ul li a .icon{
+}*/
+
+nav ul li a .icon i {
+    width: var(--height-unit);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#app {
+    height: 100vh;
+    overflow: hidden;
+}
+
+/****************************** HEADER **********************************/
+
+
+header{
+    box-shadow: 0 3px 5PX -1px  rgb(0 0 0 / 20%);
+    0 5px 8px 0 rgb(0 0 0 /14%);
+    0 1px 14px 0 rgb(0 0 0 / 12%);
+    position: sticky;
+    top: 0;
+    background-color:var(--main-color-white);
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    flex: 1;
+}
+
+header ul li a{
+    display: block; 
+    height: var(--height-unit);
+    line-height: var(--height-unit);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 2s ease 2s;
+}
+
+header ul li a:hover{
+    background-color: var(--main-color);
+    color: var*--main-color-white;
+}
+
+/******************************** MAIN *****************************************/
+
+main {
+    overflow-y: auto;
+}
+
+/******************************** MAIN *******************************************/
+
+p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+p:hover{
+    font-weight: bold;
+    background-color: var(--main-color);
+    color: var(--main-color-white);
+    padding: 10px;
+    font-size: 1.2rem;
+    transition: all 5s ease;
+}
